@@ -1,0 +1,10 @@
+[hyprKey]
+author = "Luposmi"
+version = "0.1"
+description = "experimental plugin for vim like keys in Lua"
+
+[hyprKey.build]
+output = "hyprKey.so"
+steps = [ 
+    "make all"
+] 
